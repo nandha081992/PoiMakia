@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Mercury" duration-ms="54119" started-at="2019-06-28T15:29:30Z" finished-at="2019-06-28T15:30:25Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="27270" started-at="2019-06-28T15:29:30Z" finished-at="2019-06-28T15:29:58Z">
+      <class name="testcase.Mercury.BookOneWay">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcase.Mercury.BookOneWay@10ab905]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-06-28T20:59:30Z" finished-at="2019-06-28T20:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcase.Mercury.BookOneWay@10ab905]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-06-28T20:59:30Z" finished-at="2019-06-28T20:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:testcase.Mercury.BookOneWay@10ab905]" name="beforeMethod" is-config="true" duration-ms="16824" started-at="2019-06-28T20:59:31Z" finished-at="2019-06-28T20:59:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="oneWay()[pri:0, instance:testcase.Mercury.BookOneWay@10ab905]" name="oneWay" duration-ms="8027" started-at="2019-06-28T20:59:47Z" finished-at="2019-06-28T20:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneWay -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.Mercury.BookOneWay@10ab905]" name="afterMethod" is-config="true" duration-ms="2356" started-at="2019-06-28T20:59:55Z" finished-at="2019-06-28T20:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcase.Mercury.BookOneWay@10ab905]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-06-28T20:59:58Z" finished-at="2019-06-28T20:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcase.Mercury.BookOneWay@10ab905]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-06-28T20:59:58Z" finished-at="2019-06-28T20:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcase.Mercury.BookOneWay -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="26773" started-at="2019-06-28T15:29:58Z" finished-at="2019-06-28T15:30:25Z">
+      <class name="testcase.Mercury_TwoWay.BookTwoWay">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcase.Mercury_TwoWay.BookTwoWay@c0a365]" name="beforeSuite" is-config="true" duration-ms="32" started-at="2019-06-28T20:59:30Z" finished-at="2019-06-28T20:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcase.Mercury_TwoWay.BookTwoWay@c0a365]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-06-28T20:59:58Z" finished-at="2019-06-28T20:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:testcase.Mercury_TwoWay.BookTwoWay@c0a365]" name="beforeMethod" is-config="true" duration-ms="15462" started-at="2019-06-28T20:59:58Z" finished-at="2019-06-28T21:00:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcase.Mercury_TwoWay.BookTwoWay@c0a365]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-06-28T20:59:58Z" finished-at="2019-06-28T20:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="twoWay()[pri:0, instance:testcase.Mercury_TwoWay.BookTwoWay@c0a365]" name="twoWay" duration-ms="7877" started-at="2019-06-28T21:00:13Z" finished-at="2019-06-28T21:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoWay -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.Mercury_TwoWay.BookTwoWay@c0a365]" name="afterMethod" is-config="true" duration-ms="3426" started-at="2019-06-28T21:00:21Z" finished-at="2019-06-28T21:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcase.Mercury_TwoWay.BookTwoWay@c0a365]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-06-28T21:00:25Z" finished-at="2019-06-28T21:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcase.Mercury_TwoWay.BookTwoWay@c0a365]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-06-28T21:00:25Z" finished-at="2019-06-28T21:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcase.Mercury_TwoWay.BookTwoWay@c0a365]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-06-28T21:00:25Z" finished-at="2019-06-28T21:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcase.Mercury_TwoWay.BookTwoWay -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Mercury -->
+</testng-results>

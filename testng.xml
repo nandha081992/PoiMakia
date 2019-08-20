@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mercury" verbose="10" thread-count="5" parallel="tests" >
+<parameter name="URL" value="http://newtours.demoaut.com/"></parameter>
+  <test  name="Test1">
+    <classes>
+      <class name="testcase.Mercury.BookOneWay"/>
+    <class name="testcase.Mercury_TwoWay.BookTwoWay"/>
+   
+    </classes>
+ 
+
+  </test> <!-- Test -->
+  
+  <test  name="Test2">
+    <classes>
+      
+    <class name="testcase.Mercury_TwoWay.BookTwoWay"/>
+   
+    </classes>
+ 
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

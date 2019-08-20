@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Mercury]">
+  <parameter name="URL" value="http://newtours.demoaut.com/"/>
+  <test name="Test1(failed)" parallel="methods">
+    <classes>
+      <class name="testcase.Mercury_TwoWay.BookTwoWay">
+        <methods>
+          <include name="twoWay"/>
+        </methods>
+      </class> <!-- testcase.Mercury_TwoWay.BookTwoWay -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Mercury] -->
